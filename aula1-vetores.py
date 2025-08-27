@@ -25,6 +25,10 @@ vetor2 = [10, 20, 30, 40, 50, 60, 70] # Criação de uma segunda lista com eleme
 vetor.append(vetor2) # Adiciona a lista vetor2 como um único elemento no final da lista vetor
 print(vetor) # Exibe o conteúdo da lista vetor, que agora inclui vetor2 como um sub-lista
 print(vetor[7][5]) # Acessa e exibe o sexto elemento da sub-lista vetor2 dentro de vetor (índice 7)
+vetor.pop() # Remove o último elemento da lista vetor (que é a sub-lista vetor2)
+vetor.pop(0) # Remove o primeiro elemento da lista vetor (que é o número 1)
+vetor.pop(4) # Remove o quinto elemento da lista vetor (que é o número 6, considerando o índice atualizado após as remoções anteriores)
+del vetor[2] # Remove o terceiro elemento da lista vetor (que é o número 4, considerando o índice atualizado após as remoções anteriores)
 
 
 def oi():
